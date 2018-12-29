@@ -29,8 +29,8 @@ q.push(task3)
 ```js
 const q = new Queue(2)
 const task1 = done => setTimeout(_ => {console.log('1'); done()}, 1000)
-const task1 = done => setTimeout(_ => {console.log('2'); done()}, 1000)
-const task1 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
+const task2 = done => setTimeout(_ => {console.log('2'); done()}, 1000)
+const task3 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
 
 // console
 // 1 - after 1000ms
@@ -43,8 +43,8 @@ const task1 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
 ```js
 const q = new Queue(1, false)
 const task1 = done => setTimeout(_ => {console.log('1'); done()}, 1000)
-const task1 = done => setTimeout(_ => {console.log('2'); done()}, 1000)
-const task1 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
+const task2 = done => setTimeout(_ => {console.log('2'); done()}, 1000)
+const task3 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
 // queue wont start until you call q.start()
 q.start()
 
@@ -59,8 +59,8 @@ q.start()
 ```js
 const q = new Queue(1)
 const task1 = done => setTimeout(_ => {console.log('1'); done()}, 1000)
-const task1 = done => setTimeout(_ => {console.log('2'); done()}, 1000)
-const task1 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
+const task2 = done => setTimeout(_ => {console.log('2'); done()}, 1000)
+const task3 = done => setTimeout(_ => {console.log('3'); done()}, 1000)
 // When you call stop after 1500 ms
 q.stop()
 
