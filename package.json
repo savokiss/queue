@@ -1,0 +1,47 @@
+{
+  "name": "@savo/queue",
+  "version": "0.1.0",
+  "description": "Just a simple async queue",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "release": "np --no-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savokiss/queue.git"
+  },
+  "keywords": [
+    "async",
+    "queue"
+  ],
+  "author": "savokiss <jaynaruto@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savokiss/queue/issues"
+  },
+  "homepage": "https://github.com/savokiss/queue#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.2.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.2.0",
+    "rollup": "^0.61.2",
+    "rollup-plugin-babel": "^3.0.5",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}

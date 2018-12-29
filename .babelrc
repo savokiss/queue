@@ -1,0 +1,23 @@
+{
+  "env": {
+    "main": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false
+          }
+        ],
+        "stage-2"
+      ],
+      "plugins": [
+        [
+          "transform-runtime"
+        ]
+      ]
+    },
+    "test": {
+      "presets": ["env", "stage-2"]
+    }
+  }
+}
