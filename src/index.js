@@ -50,7 +50,8 @@ class Queue {
   }
 
   /**
-   * 停止队列
+   * 终止队列
+   * 只能停止未开始执行的 task
    * stop 后不能再次 start
    */
   stop () {

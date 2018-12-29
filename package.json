@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Just a simple async queue",
   "main": "src/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "release": "np --no-cleanup"
+    "release": "np --no-cleanup",
+    "unit": "jest --config test/jest.conf.js",
+    "test": "cross-env BABEL_ENV=test npm run unit"
   },
   "repository": {
     "type": "git",
