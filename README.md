@@ -4,7 +4,7 @@ Just a simple async queue
 # Installation
 
 ```console
-npm i @savo/queue
+yarn add @savo/queue
 ```
 
 # Usage
